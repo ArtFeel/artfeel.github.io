@@ -11,9 +11,17 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	display:block;
 }
 
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {
+	/*background: #181818;*/
+	background-image:url(noisy-background.png);
+	font-family: 'Lato', helvetica, arial, sans-serif; 
+	font-size: 16px; 
+	color: #222;
+}
 
-.clear {clear: both;}
+.clear {
+	clear: both;
+}
 
 p {
 	font-size: 1em;
@@ -134,7 +142,7 @@ section:last-child {
 	margin-bottom: -2px;
 }
 
-.sectionContent h2 a {
+.sectionContent a {
 	color: #222;
 	text-decoration: none;
 	-webkit-transition: all .2s ease-in;
@@ -144,7 +152,7 @@ section:last-child {
 	transition: all .2s ease-in;
 }
 
-.sectionContent h2 a:hover {
+.sectionContent a:hover {
 	color: #cf8a05;
 }
 
