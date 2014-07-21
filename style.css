@@ -51,8 +51,8 @@ p {
 
 #name h2 {
 	font-size: 2em;
-	margin-left: 2px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-left: 2px;
 }
 
 #mainArea {
@@ -164,7 +164,7 @@ section:last-child {
 .projectName {
 	color: #222;
 	font-size: 1.1em;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .keySkills {
