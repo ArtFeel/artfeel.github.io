@@ -257,4 +257,10 @@ section:last-child {
 	#cv {
 		width: 100%;
 	}
+	
+	.keySkills {
+		-moz-column-count:3;
+		-webkit-column-count:3;
+		column-count:3;
+	}
 }
